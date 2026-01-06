@@ -1,0 +1,250 @@
+# ========================================
+# Archivos del Sistema Operativo
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# IDEs y Editores
+# ========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains (IntelliJ, CLion, WebStorm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# Eclipse
+.metadata
+.project
+.cproject
+.settings/
+
+# ========================================
+# C/C++ - Archivos Compilados y Build
+# ========================================
+
+# Ejecutables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Objetos compilados
+*.o
+*.obj
+*.ko
+*.elf
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.la
+*.lo
+
+# Archivos de Debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Archivos de preprocesador
+*.i
+*.ii
+*.s
+
+# ========================================
+# JavaScript/Node.js
+# ========================================
+
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+
+# Caché
+.npm
+.eslintcache
+.node_repl_history
+*.tsbuildinfo
+
+# Build
+dist/
+build/
+.cache/
+
+# ========================================
+# HTML/CSS - Assets y Builds
+# ========================================
+
+# Preprocesadores CSS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Build tools
+.grunt/
+bower_components/
+
+# ========================================
+# Archivos Temporales y de Backup
+# ========================================
+
+# Temporales
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*~
+
+# Patches
+*.patch
+*.diff
+
+# ========================================
+# Archivos de Configuración Local
+# ========================================
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Configuraciones personales
+config.local.*
+settings.local.*
+
+# ========================================
+# Testing y Coverage
+# ========================================
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Test results
+test-results/
+*.test.js.snap
+
+# ========================================
+# Documentación Generada
+# ========================================
+
+# Doxygen
+html/
+latex/
+docs/generated/
+
+# ========================================
+# Otros
+# ========================================
+
+# Archivos de compresión
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificados y claves
+*.pem
+*.key
+*.cert
+
+# Notas personales del desarrollador
+TODO.txt
+NOTES.txt
+notas-personales/
